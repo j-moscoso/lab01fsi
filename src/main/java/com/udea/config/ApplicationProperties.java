@@ -3,7 +3,7 @@ package com.udea.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * Properties specific to Lab 01 Fsi.
+ * Properties specific to Aerolinea Virtual.
  * <p>
  * Properties are configured in the {@code application.yml} file.
  * See {@link tech.jhipster.config.JHipsterProperties} for a good example.

@@ -44,6 +44,13 @@ public class CacheConfiguration {
             createCache(cm, com.udea.domain.User.class.getName());
             createCache(cm, com.udea.domain.Authority.class.getName());
             createCache(cm, com.udea.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.udea.domain.Pasajero.class.getName());
+            createCache(cm, com.udea.domain.Pasajero.class.getName() + ".reservases");
+            createCache(cm, com.udea.domain.Reserva.class.getName());
+            createCache(cm, com.udea.domain.Vuelo.class.getName());
+            createCache(cm, com.udea.domain.Vuelo.class.getName() + ".reservases");
+            createCache(cm, com.udea.domain.Asiento.class.getName());
+            createCache(cm, com.udea.domain.Asiento.class.getName() + ".reservases");
             // jhipster-needle-ehcache-add-entry
         };
     }
