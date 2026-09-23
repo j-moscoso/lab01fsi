@@ -2,6 +2,7 @@
 
 PARA DESPLEGAR EN DOCKER EJECUTAR
 mvnw.cmd -Pprod clean verify jib:dockerBuild
+
 docker compose -f src/main/docker/app.yml up -d
 
 This application was generated using JHipster 9.2.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v9.2.0](https://www.jhipster.tech/documentation-archive/v9.2.0).
